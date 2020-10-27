@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace HashTables
 {
     public class Program
@@ -28,6 +29,10 @@ namespace HashTables
             mapNode.Add("18", "situations");
             mapNode.GetFreq("paranoid");
             mapNode.DisplayFrequency();
+            mapNode.RemoveValue("avoidable");
+            mapNode.GetFreq("avoidable");
+
+
         }
     }
 }
